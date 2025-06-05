@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Poetsen+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
 
 * {
     margin: 0;
@@ -7,10 +7,11 @@
 }
 
 body {
-    background-color: #f4f0ea;
+    background-color: #f9fafb;
     color: #000;
-    font-family: "Poetsen One", sans-serif;
-    font-weight: 400;
+    font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
     font-style: normal;
 }
 

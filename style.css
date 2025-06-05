@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Poetsen+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
 
 * {
     margin: 0;
@@ -35,8 +35,9 @@
 body {
     background-color: #f9fafb;
     color: #000;
-    font-family: "Poetsen One", sans-serif;
-    font-weight: 400;
+    font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
     font-style: normal;
 }
 
@@ -208,7 +209,7 @@ main div {
 }
 
 .card:hover {
-    box-shadow: rgba(240, 46, 170, 0.4) 5px 5px, rgba(240, 46, 170, 0.3) 10px 10px, rgba(240, 46, 170, 0.2) 15px 15px, rgba(240, 46, 170, 0.1) 20px 20px, rgba(240, 46, 170, 0.05) 25px 25px;
+    box-shadow: rgba(251, 140, 0, 0.4) 5px 5px, rgba(255, 152, 0, 0.3) 10px 10px, rgba(255, 167, 38, 0.2) 15px 15px, rgba(255, 204, 128, 0.1) 20px 20px, rgba(255, 243, 224, 0.05) 25px 25px;
 }
 
 .icone {
@@ -246,6 +247,11 @@ main div {
     background-color: white;
     border-radius: 15px;
     border: 1px solid #e9eef3;
+    transition: 0.6s ease-out;
+}
+
+.c-serv:hover {
+    box-shadow: rgba(251, 140, 0, 0.4) 5px 5px, rgba(255, 152, 0, 0.3) 10px 10px, rgba(255, 167, 38, 0.2) 15px 15px, rgba(255, 204, 128, 0.1) 20px 20px, rgba(255, 243, 224, 0.05) 25px 25px;
 }
 
 .c-serv h4 {
