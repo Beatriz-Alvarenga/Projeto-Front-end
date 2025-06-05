@@ -32,7 +32,6 @@
     }
 }
 
-
 body {
     background-color: #f9fafb;
     color: #000;
@@ -54,7 +53,6 @@ nav {
 
 .logo {
     display: flex;
-    justify-content: start;
     align-items: center;
 }
 
@@ -122,6 +120,17 @@ header strong {
     background: linear-gradient(to right, #ff9100, #ffd000);
     background-clip: text;
     -webkit-text-fill-color: transparent;
+}
+
+main {
+    font-size: large;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.portfolio {
+    width: 90%;
 }
 
 .portfolio .container {
@@ -196,24 +205,24 @@ header strong {
     background: linear-gradient(to right, #ffd000, #ff8800);
 }
 
-
-
 .final {
-    width: 100%;
-    background: linear-gradient(135deg, #da7400, #da7400, #ffd930);
-    color: white;
+    width: 90%;
+    background: #FFF3E0;
+    color: black;
     text-align: center;
-    padding: 6rem;
+    padding: 3rem;
     font-size: x-large;
+    margin-bottom: 2rem;
+    border-radius: 15px;
 }
 
 .final button{
-        background-color: white;
+        background: linear-gradient(to right, #ff8800, #ff9100, #ffd930);
         font-family: "Poetsen One", sans-serif;
         padding: 10px 40px;
         font-size: 16px;
         margin: 1rem;
-        color: #ff8800;
+        color: white;
         border-radius: 10px;
         border-width: 0px;
         box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.4);
@@ -230,6 +239,7 @@ header strong {
 .final p {
     margin-top: 15px;
     margin-bottom: 10px;
+    font-size: large;
 }
 
 footer {
@@ -238,7 +248,6 @@ footer {
     display: flex;
     gap: 2rem;
     justify-content: space-evenly;
-    flex-wrap: wrap;
     text-align: center;
 }
 
@@ -260,9 +269,12 @@ footer .social-icons img:hover {
 }
 
 .lista {
+    width: auto;
     color: #f4f0ea;
     display: flex;
-    justify-content: start;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .lista ul {
